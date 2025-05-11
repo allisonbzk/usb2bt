@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bt_gamepad.dir/link.d"
-  "CMakeFiles/bt_gamepad.dir/src/config.cpp.o"
-  "CMakeFiles/bt_gamepad.dir/src/config.cpp.o.d"
   "CMakeFiles/bt_gamepad.dir/src/main.cpp.o"
   "CMakeFiles/bt_gamepad.dir/src/main.cpp.o.d"
   "CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o"

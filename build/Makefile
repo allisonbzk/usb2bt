@@ -129,30 +129,6 @@ bt_gamepad/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_gamepad.dir/build.make CMakeFiles/bt_gamepad.dir/build
 .PHONY : bt_gamepad/fast
 
-src/config.o: src/config.cpp.o
-.PHONY : src/config.o
-
-# target to build an object file
-src/config.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_gamepad.dir/build.make CMakeFiles/bt_gamepad.dir/src/config.cpp.o
-.PHONY : src/config.cpp.o
-
-src/config.i: src/config.cpp.i
-.PHONY : src/config.i
-
-# target to preprocess a source file
-src/config.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_gamepad.dir/build.make CMakeFiles/bt_gamepad.dir/src/config.cpp.i
-.PHONY : src/config.cpp.i
-
-src/config.s: src/config.cpp.s
-.PHONY : src/config.s
-
-# target to generate assembly for a file
-src/config.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_gamepad.dir/build.make CMakeFiles/bt_gamepad.dir/src/config.cpp.s
-.PHONY : src/config.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,9 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bt_gamepad"
-	@echo "... src/config.o"
-	@echo "... src/config.i"
-	@echo "... src/config.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,7 +1,6 @@
 bt_gamepad: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/bt_gamepad.dir/src/main.cpp.o \
- CMakeFiles/bt_gamepad.dir/src/config.cpp.o \
  CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o \
  /data/data/com.termux/files/usr/lib/libc++_shared.so \
  /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a \
@@ -14,8 +13,6 @@ bt_gamepad: \
 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:
 
 CMakeFiles/bt_gamepad.dir/src/main.cpp.o:
-
-CMakeFiles/bt_gamepad.dir/src/config.cpp.o:
 
 CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o:
 

@@ -7,6 +7,5 @@ include_directories(src)
 
 add_executable(bt_gamepad
     src/main.cpp
-    src/config.cpp
     src/usb_reader.cpp
 )
