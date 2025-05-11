@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/usb2bt.dir/link.d CMakeFiles/usb2bt.dir/src/main.cpp.o CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o -o usb2bt

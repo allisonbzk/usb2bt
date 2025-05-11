@@ -1,4 +1,4 @@
-# Install script for directory: /data/data/com.termux/files/home/bt-gamepad
+# Install script for directory: /data/data/com.termux/files/home/usb2bt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/data/data/com.termux/files/home/bt-gamepad/build/install_local_manifest.txt"
+  file(WRITE "/data/data/com.termux/files/home/usb2bt/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/data/data/com.termux/files/home/bt-gamepad/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/data/data/com.termux/files/home/usb2bt/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

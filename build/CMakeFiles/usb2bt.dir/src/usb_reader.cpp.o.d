@@ -1,6 +1,6 @@
-CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o: \
-  /data/data/com.termux/files/home/bt-gamepad/src/usb_reader.cpp \
-  /data/data/com.termux/files/home/bt-gamepad/src/usb_reader.hpp \
+CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o: \
+  /data/data/com.termux/files/home/usb2bt/src/usb_reader.cpp \
+  /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp \
   /data/data/com.termux/files/usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/copy.h \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/copy_move_common.h \

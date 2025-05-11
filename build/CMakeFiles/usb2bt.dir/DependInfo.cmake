@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/data/data/com.termux/files/home/bt-gamepad/src/main.cpp" "CMakeFiles/bt_gamepad.dir/src/main.cpp.o" "gcc" "CMakeFiles/bt_gamepad.dir/src/main.cpp.o.d"
-  "/data/data/com.termux/files/home/bt-gamepad/src/usb_reader.cpp" "CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o" "gcc" "CMakeFiles/bt_gamepad.dir/src/usb_reader.cpp.o.d"
-  "" "bt_gamepad" "gcc" "CMakeFiles/bt_gamepad.dir/link.d"
+  "/data/data/com.termux/files/home/usb2bt/src/main.cpp" "CMakeFiles/usb2bt.dir/src/main.cpp.o" "gcc" "CMakeFiles/usb2bt.dir/src/main.cpp.o.d"
+  "/data/data/com.termux/files/home/usb2bt/src/usb_reader.cpp" "CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o" "gcc" "CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o.d"
+  "" "usb2bt" "gcc" "CMakeFiles/usb2bt.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
