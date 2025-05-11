@@ -19,7 +19,7 @@ std::map<int, std::string> buttonMapping = {
 
 // Adds mapping for analog axis values
 std::map<int, std::string> axisMapping = {
-    {0, "LX"}, {1, "LY"}, {2, "RX"}, {3, "RY"}, {17, "DPad Up/Down"}, {16, "DPad Left/Right"}
+    {0, "LX"}, {1, "LY"}, {2, "RX"}, {5, "RY"}, {17, "DPad Up/Down"}, {16, "DPad Left/Right"}
 };
 
 int select_device_interactively(const std::vector<InputDeviceInfo> devices) {
