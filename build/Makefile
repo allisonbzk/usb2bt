@@ -153,30 +153,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/usb_reader.o: src/usb_reader.cpp.o
-.PHONY : src/usb_reader.o
-
-# target to build an object file
-src/usb_reader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o
-.PHONY : src/usb_reader.cpp.o
-
-src/usb_reader.i: src/usb_reader.cpp.i
-.PHONY : src/usb_reader.i
-
-# target to preprocess a source file
-src/usb_reader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.i
-.PHONY : src/usb_reader.cpp.i
-
-src/usb_reader.s: src/usb_reader.cpp.s
-.PHONY : src/usb_reader.s
-
-# target to generate assembly for a file
-src/usb_reader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.s
-.PHONY : src/usb_reader.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +165,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/usb_reader.o"
-	@echo "... src/usb_reader.i"
-	@echo "... src/usb_reader.s"
 .PHONY : help
 
 

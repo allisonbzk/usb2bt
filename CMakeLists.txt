@@ -7,5 +7,4 @@ include_directories(src)
 
 add_executable(usb2bt
     src/main.cpp
-    src/usb_reader.cpp
 )
