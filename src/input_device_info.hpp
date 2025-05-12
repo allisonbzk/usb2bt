@@ -4,8 +4,8 @@
 #include <string>
 
 struct InputDeviceInfo {
-    std::string path;
     std::string name;
+    std::string path;
 };
 
 #endif // INPUT_DEVICE_INFO_HPP

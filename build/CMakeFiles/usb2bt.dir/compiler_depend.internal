@@ -5,6 +5,7 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o
  /data/data/com.termux/files/home/usb2bt/src/device_manager.cpp
  /data/data/com.termux/files/home/usb2bt/src/device_manager.hpp
  /data/data/com.termux/files/home/usb2bt/src/input_device_info.hpp
+ /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/bitsperlong.h
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/errno.h
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/fcntl.h

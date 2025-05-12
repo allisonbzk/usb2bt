@@ -4,6 +4,7 @@
 CMakeFiles/usb2bt.dir/src/device_manager.cpp.o: /data/data/com.termux/files/home/usb2bt/src/device_manager.cpp \
   /data/data/com.termux/files/home/usb2bt/src/device_manager.hpp \
   /data/data/com.termux/files/home/usb2bt/src/input_device_info.hpp \
+  /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/bitsperlong.h \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/errno.h \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/fcntl.h \
@@ -2718,8 +2719,6 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 
 /data/data/com.termux/files/home/usb2bt/src/usb_reader.cpp:
 
-/data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp:
-
 /data/data/com.termux/files/usr/lib/clang/20/include/stdint.h:
 
 /data/data/com.termux/files/usr/lib/clang/20/include/limits.h:
@@ -3370,12 +3369,6 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__fwd/subrange.h:
 
-/data/data/com.termux/files/usr/include/c++/v1/__tuple/tuple_element.h:
-
-/data/data/com.termux/files/usr/include/aarch64-linux-android/asm/sve_context.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__fwd/string_view.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__math/min_max.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__fwd/string.h:
@@ -3529,14 +3522,6 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__atomic/memory_order.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__format/format_parse_context.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/unwrap_iter.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__fwd/array.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__type_traits/add_pointer.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/sample.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/type_traits:
 
@@ -3801,6 +3786,10 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_integral.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__bit_reference:
+
+/data/data/com.termux/files/usr/include/c++/v1/__fwd/array.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__numeric/transform_reduce.h:
 
@@ -4116,6 +4105,10 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/shift_left.h:
 
+/data/data/com.termux/files/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/sample.h:
+
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/functional:
@@ -4229,12 +4222,6 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/max_element.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/replace.h:
-
-/data/data/com.termux/files/usr/include/asm-generic/fcntl.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/iterator.h:
 
@@ -4382,6 +4369,14 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h:
 
+/data/data/com.termux/files/usr/include/c++/v1/__tuple/tuple_element.h:
+
+/data/data/com.termux/files/usr/include/aarch64-linux-android/asm/sve_context.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__fwd/string_view.h:
+
+/data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp:
+
 /data/data/com.termux/files/usr/include/android/versioning.h:
 
 /data/data/com.termux/files/usr/include/bits/getentropy.h:
@@ -4400,13 +4395,11 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/equal.h:
 
-/data/data/com.termux/files/usr/include/aarch64-linux-android/asm/siginfo.h:
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/replace.h:
 
-/data/data/com.termux/files/usr/include/android/ndk-version.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__algorithm/pstl_fill.h:
+/data/data/com.termux/files/usr/include/asm-generic/fcntl.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__functional/function.h:
 
@@ -4435,6 +4428,14 @@ CMakeFiles/usb2bt.dir/src/device_manager.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /data/data/com.termux/files/usr/include/bits/pthread_types.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/pstl_fill.h:
+
+/data/data/com.termux/files/usr/include/aarch64-linux-android/asm/siginfo.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
+
+/data/data/com.termux/files/usr/include/android/ndk-version.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 

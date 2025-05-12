@@ -16,7 +16,7 @@ std::vector<InputDeviceInfo> DeviceManager::listDevices() {
 int DeviceManager::selectDeviceInteractively(const std::vector<InputDeviceInfo>& devices) {
     std::cout << "Selecione um dispositivo de entrada:\n";
     for (size_t i = 0; i < devices.size(); ++i) {
-        std::cout << i << ": " << devices[i].name << "\n";
+        std::cout << i << ": " << devices[i].name << " (" << devices[i].path << ")\n";
     }
     std::cout << "Digite o número correspondente: ";
     int choice;
