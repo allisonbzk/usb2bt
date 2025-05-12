@@ -1,6 +1,6 @@
-CMakeFiles/usb2bt.dir/src/main.cpp.o: \
-  /data/data/com.termux/files/home/usb2bt/src/main.cpp \
-  /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp \
+CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.o: \
+  /data/data/com.termux/files/home/usb2bt/src/device_manager.cpp \
+  /data/data/com.termux/files/home/usb2bt/src/device_manager.hpp \
   /data/data/com.termux/files/home/usb2bt/src/input_device_info.hpp \
   /data/data/com.termux/files/usr/include/c++/v1/string \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/max.h \
@@ -841,7 +841,7 @@ CMakeFiles/usb2bt.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/unary_negate.h \
-  /data/data/com.termux/files/home/usb2bt/src/device_manager.hpp \
+  /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp \
   /data/data/com.termux/files/usr/include/c++/v1/fstream \
   /data/data/com.termux/files/usr/include/c++/v1/filesystem \
   /data/data/com.termux/files/usr/include/c++/v1/__filesystem/copy_options.h \

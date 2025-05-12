@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libusb2bt_lib.a CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.o CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.o CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libusb2bt_lib.a

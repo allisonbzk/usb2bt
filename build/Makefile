@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named usb2bt_lib
+
+# Build rule for target.
+usb2bt_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb2bt_lib
+.PHONY : usb2bt_lib
+
+# fast build rule for target.
+usb2bt_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/build
+.PHONY : usb2bt_lib/fast
+
+#=============================================================================
 # Target rules for targets named usb2bt
 
 # Build rule for target.
@@ -134,7 +147,7 @@ src/device_manager.o: src/device_manager.cpp.o
 
 # target to build an object file
 src/device_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.o
 .PHONY : src/device_manager.cpp.o
 
 src/device_manager.i: src/device_manager.cpp.i
@@ -142,7 +155,7 @@ src/device_manager.i: src/device_manager.cpp.i
 
 # target to preprocess a source file
 src/device_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.i
 .PHONY : src/device_manager.cpp.i
 
 src/device_manager.s: src/device_manager.cpp.s
@@ -150,7 +163,7 @@ src/device_manager.s: src/device_manager.cpp.s
 
 # target to generate assembly for a file
 src/device_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.s
 .PHONY : src/device_manager.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -182,7 +195,7 @@ src/usb_reader.o: src/usb_reader.cpp.o
 
 # target to build an object file
 src/usb_reader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.o
 .PHONY : src/usb_reader.cpp.o
 
 src/usb_reader.i: src/usb_reader.cpp.i
@@ -190,7 +203,7 @@ src/usb_reader.i: src/usb_reader.cpp.i
 
 # target to preprocess a source file
 src/usb_reader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.i
 .PHONY : src/usb_reader.cpp.i
 
 src/usb_reader.s: src/usb_reader.cpp.s
@@ -198,8 +211,32 @@ src/usb_reader.s: src/usb_reader.cpp.s
 
 # target to generate assembly for a file
 src/usb_reader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.s
 .PHONY : src/usb_reader.cpp.s
+
+src/xinput_mapper.o: src/xinput_mapper.cpp.o
+.PHONY : src/xinput_mapper.o
+
+# target to build an object file
+src/xinput_mapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.o
+.PHONY : src/xinput_mapper.cpp.o
+
+src/xinput_mapper.i: src/xinput_mapper.cpp.i
+.PHONY : src/xinput_mapper.i
+
+# target to preprocess a source file
+src/xinput_mapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.i
+.PHONY : src/xinput_mapper.cpp.i
+
+src/xinput_mapper.s: src/xinput_mapper.cpp.s
+.PHONY : src/xinput_mapper.s
+
+# target to generate assembly for a file
+src/xinput_mapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt_lib.dir/build.make CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.s
+.PHONY : src/xinput_mapper.cpp.s
 
 # Help Target
 help:
@@ -210,6 +247,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... usb2bt"
+	@echo "... usb2bt_lib"
 	@echo "... src/device_manager.o"
 	@echo "... src/device_manager.i"
 	@echo "... src/device_manager.s"
@@ -219,6 +257,9 @@ help:
 	@echo "... src/usb_reader.o"
 	@echo "... src/usb_reader.i"
 	@echo "... src/usb_reader.s"
+	@echo "... src/xinput_mapper.o"
+	@echo "... src/xinput_mapper.i"
+	@echo "... src/xinput_mapper.s"
 .PHONY : help
 
 

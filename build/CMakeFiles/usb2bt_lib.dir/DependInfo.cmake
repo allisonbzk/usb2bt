@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/data/data/com.termux/files/home/usb2bt/src/main.cpp" "CMakeFiles/usb2bt.dir/src/main.cpp.o" "gcc" "CMakeFiles/usb2bt.dir/src/main.cpp.o.d"
-  "" "usb2bt" "gcc" "CMakeFiles/usb2bt.dir/link.d"
+  "/data/data/com.termux/files/home/usb2bt/src/device_manager.cpp" "CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.o" "gcc" "CMakeFiles/usb2bt_lib.dir/src/device_manager.cpp.o.d"
+  "/data/data/com.termux/files/home/usb2bt/src/usb_reader.cpp" "CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.o" "gcc" "CMakeFiles/usb2bt_lib.dir/src/usb_reader.cpp.o.d"
+  "/data/data/com.termux/files/home/usb2bt/src/xinput_mapper.cpp" "CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.o" "gcc" "CMakeFiles/usb2bt_lib.dir/src/xinput_mapper.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

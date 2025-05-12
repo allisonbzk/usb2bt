@@ -147,5 +147,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/usb2bt_lib.dir/DependInfo.cmake"
   "CMakeFiles/usb2bt.dir/DependInfo.cmake"
   )

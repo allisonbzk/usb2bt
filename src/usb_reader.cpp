@@ -1,10 +1,7 @@
+#include "xinput_mapper.hpp"
 #include "usb_reader.hpp"
-#include <iostream>
-#include <fstream>
-#include <unistd.h>
 #include <linux/input.h>
-#include <fcntl.h>
-#include <sys/ioctl.h>
+#include <iostream>
 
 std::vector<InputDeviceInfo> list_input_devices() {
     std::vector<InputDeviceInfo> devices;
@@ -25,19 +22,27 @@ std::vector<InputDeviceInfo> list_input_devices() {
     return devices;
 }
 
+
+// Modify the read_usb_input function
 void read_usb_input(const std::string& devicePath, void (*buttonCallback)(int), void (*axisCallback)(int, float)) {
     int fd = open(devicePath.c_str(), O_RDONLY);
     if (fd == -1) {
-        std::cerr << "Falha ao abrir o dispositivo " << devicePath << "\n";
+        std::cerr << "Failed to open the device " << devicePath << "\n";
         return;
     }
 
     struct input_event ev;
     while (read(fd, &ev, sizeof(struct input_event)) > 0) {
-        if (ev.type == EV_KEY) {
-            buttonCallback(ev.code);
-        } else if (ev.type == EV_ABS) {
-            axisCallback(ev.code, ev.value / 32767.0f);  // Normalizando o valor do eixo
+        try {
+            if (ev.type == EV_KEY) {
+                XInputButton xButton = map_usb_to_xinput_button(ev.code);
+                buttonCallback((int)xButton);
+            } else if (ev.type == EV_ABS) {
+                XInputAxis xAxis = map_usb_to_xinput_axis(ev.code);
+                axisCallback((int)xAxis, ev.value / 32767.0f); // Normalize axis value
+            }
+        } catch (const std::invalid_argument& e) {
+            std::cerr << "Unmapped input code: " << ev.code << " (" << e.what() << ")\n";
         }
     }
     close(fd);
