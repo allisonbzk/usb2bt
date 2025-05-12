@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usb2bt.dir/link.d"
+  "CMakeFiles/usb2bt.dir/src/device_manager.cpp.o"
+  "CMakeFiles/usb2bt.dir/src/device_manager.cpp.o.d"
   "CMakeFiles/usb2bt.dir/src/main.cpp.o"
   "CMakeFiles/usb2bt.dir/src/main.cpp.o.d"
+  "CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o"
+  "CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o.d"
   "usb2bt"
   "usb2bt.pdb"
 )

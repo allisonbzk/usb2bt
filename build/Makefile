@@ -129,6 +129,30 @@ usb2bt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/build
 .PHONY : usb2bt/fast
 
+src/device_manager.o: src/device_manager.cpp.o
+.PHONY : src/device_manager.o
+
+# target to build an object file
+src/device_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.o
+.PHONY : src/device_manager.cpp.o
+
+src/device_manager.i: src/device_manager.cpp.i
+.PHONY : src/device_manager.i
+
+# target to preprocess a source file
+src/device_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.i
+.PHONY : src/device_manager.cpp.i
+
+src/device_manager.s: src/device_manager.cpp.s
+.PHONY : src/device_manager.s
+
+# target to generate assembly for a file
+src/device_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/device_manager.cpp.s
+.PHONY : src/device_manager.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/usb_reader.o: src/usb_reader.cpp.o
+.PHONY : src/usb_reader.o
+
+# target to build an object file
+src/usb_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.o
+.PHONY : src/usb_reader.cpp.o
+
+src/usb_reader.i: src/usb_reader.cpp.i
+.PHONY : src/usb_reader.i
+
+# target to preprocess a source file
+src/usb_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.i
+.PHONY : src/usb_reader.cpp.i
+
+src/usb_reader.s: src/usb_reader.cpp.s
+.PHONY : src/usb_reader.s
+
+# target to generate assembly for a file
+src/usb_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/usb2bt.dir/build.make CMakeFiles/usb2bt.dir/src/usb_reader.cpp.s
+.PHONY : src/usb_reader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... usb2bt"
+	@echo "... src/device_manager.o"
+	@echo "... src/device_manager.i"
+	@echo "... src/device_manager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/usb_reader.o"
+	@echo "... src/usb_reader.i"
+	@echo "... src/usb_reader.s"
 .PHONY : help
 
 

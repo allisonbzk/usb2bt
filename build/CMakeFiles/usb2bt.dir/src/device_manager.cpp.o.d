@@ -1,5 +1,5 @@
-CMakeFiles/usb2bt.dir/src/main.cpp.o: \
-  /data/data/com.termux/files/home/usb2bt/src/main.cpp \
+CMakeFiles/usb2bt.dir/src/device_manager.cpp.o: \
+  /data/data/com.termux/files/home/usb2bt/src/device_manager.cpp \
   /data/data/com.termux/files/home/usb2bt/src/device_manager.hpp \
   /data/data/com.termux/files/home/usb2bt/src/input_device_info.hpp \
   /data/data/com.termux/files/usr/include/c++/v1/string \
@@ -841,7 +841,18 @@ CMakeFiles/usb2bt.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/unary_negate.h \
   /data/data/com.termux/files/home/usb2bt/src/usb_reader.hpp \
-  /data/data/com.termux/files/usr/include/c++/v1/iostream \
+  /data/data/com.termux/files/usr/include/c++/v1/fstream \
+  /data/data/com.termux/files/usr/include/c++/v1/filesystem \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/copy_options.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/file_status.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/file_type.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/perms.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__chrono/file_clock.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/path.h \
+  /data/data/com.termux/files/usr/include/c++/v1/iomanip \
   /data/data/com.termux/files/usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/include/c++/v1/ostream \
   /data/data/com.termux/files/usr/include/c++/v1/__format/format_args.h \
@@ -868,4 +879,13 @@ CMakeFiles/usb2bt.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/include/bits/lockf.h \
   /data/data/com.termux/files/usr/include/bits/sysconf.h \
   /data/data/com.termux/files/usr/include/android/legacy_unistd_inlines.h \
-  /data/data/com.termux/files/usr/include/bits/swab.h
+  /data/data/com.termux/files/usr/include/bits/swab.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/operations.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/perm_options.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/space_info.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/directory_options.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /data/data/com.termux/files/usr/include/c++/v1/__filesystem/u8path.h \
+  /data/data/com.termux/files/usr/include/c++/v1/iostream
